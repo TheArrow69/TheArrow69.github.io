@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campamentos de Verano - Registro</title>
+    <link rel="stylesheet" href="css/registro-styles.css">
+</head>
+<body class="bg-camp min-h-screen flex items-center justify-center">
+    <div class="container flex flex-col items-center">
+        <div class="max-w-md w-full bg-white rounded-lg shadow-lg">
+            <div class="card-header">
+                <h1>Campamentos de Verano</h1>
+            </div>
+
+            <div class="tab-nav">
+                <a href="campamento-login.html">Iniciar Sesión</a>
+                <a href="#" class="active">Registrarse</a>
+            </div>
+
+            <div class="card-body">
+                <form action="register.php" method="post" class="space-y-4">
+                    <div class="form-group2">
+                        <label>Apellidos del Niño/a</label>
+                        <input type="text" name="Apellidos" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Nombre del Niño/a</label>
+                        <input type="text" name="Nombre" required>
+                    </div>
+                    <div class="form-group2">
+                        <label>Correo Electrónico</label>
+                        <input type="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label>DNI del Niño/a</label>
+                        <input type="text" name="DNI" required>
+                    </div>
+                    <div class="form-group2">
+                        <label>Contraseña</label>
+                        <input type="password" name="password" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Teléfono de Contacto</label>
+                        <input type="tel" name="tlf" required>
+                    </div>
+                    <div class="form-group2">
+                        <label>Comentarios (Alergias, Problemas Alimentarios, etc)</label>
+                        <input type="text" name="Comentarios">
+                    </div>
+                    <div class="form-group">
+                        <label>Fecha de Nacimiento del Niño/a</label>
+                        <input type="date" name="Nacimiento" required>
+                    </div>
+                    <div class="form-group2">
+                        <label>Fecha de Inicio del Campamento</label>
+                        <input type="date" name="FechaCampamento" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Campamento</label>
+                        <select name="Campamento" required>
+                            <option value="">Seleccione un campamento</option>
+                            <option value="camp1">Campamento 1</option>
+                            <option value="camp2">Campamento 2</option>
+                            <option value="camp3">Campamento 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Registrarse</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
