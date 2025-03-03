@@ -12,7 +12,7 @@ body {
 }
 
 .bg-camp::before {
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url('/CAMPAMENTO/Fotos/Designer.jpeg');
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url('/Fotos/Designer.jpeg');
     content: "";
     position: absolute;
     top: 0;
@@ -22,7 +22,7 @@ body {
 }
 
 .bg-camp::after {
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url('/CAMPAMENTO/Fotos/Designer2.jpg');
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url('/Fotos/Designer2.jpg');
     content: "";
     position: absolute;
     top: 0;
